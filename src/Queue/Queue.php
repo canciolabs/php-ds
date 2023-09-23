@@ -33,7 +33,7 @@ class Queue implements QueueInterface
 
     public function copy(): QueueInterface
     {
-        return new self($this->queue->toArray());
+        return new self($this->toArray());
     }
 
     public function count(): int

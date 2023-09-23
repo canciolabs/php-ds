@@ -3,18 +3,18 @@
 ## Data Structures
 
 - Queue
+- Stack
 
 ## TODO
 
 - Array Assoc
 - Deque
-- Double Linked List
+- Doubly Linked List
 - Linked List
 - Matrix
 - Map
 - Pair
 - Set
-- Stack
 - Union Find
     - Quick Union
     - Quick Find
