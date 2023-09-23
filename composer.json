@@ -1,0 +1,41 @@
+{
+    "name": "cancio-labs/php-ds",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cancio\\Ds\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cancio\\Ds\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {},
+    "authors": [
+        {
+            "name": "Nilo Soares",
+            "email": "nilosoares@gmail.com"
+        },
+        {
+            "name": "NSCPS Solutions",
+            "email": "nscpssolutions@gmail.com"
+        },
+        {
+            "name": "Cancio Labs",
+            "email": "canciolabs@gmail.com"
+        }
+    ],
+    "scripts": {
+        "tests": [
+            "./vendor/bin/phpunit"
+        ],
+        "coverage": [
+            "XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-html=coverage"
+        ]
+    }
+}
